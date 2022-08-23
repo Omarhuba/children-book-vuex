@@ -1,0 +1,82 @@
+[
+	{
+		"id": 1,
+		"title": "Goodnight Moon",
+		"author": "Margaret Wise Brown",
+		"publisher": "Harper Festival",
+		"year": 1947,
+		"pages": 30,
+		"plot": "In a soothing",
+		"audience": " repetitive tone"
+	},
+	{
+		"id": 2,
+		"title": "The Very Hungry Caterpillar",
+		"author": "Eric Carle",
+		"publisher": "Philomel Books",
+		"year": 1969,
+		"pages": 26,
+		"plot": "In this classic children’s book",
+		"audience": " a caterpillar eats his way through a week’s worth of food before making his glorious transformation into a butterfly. With colorful artwork of tissue paper and paint"
+	},
+	{
+		"id": 3,
+		"title": "A Wrinkle in Time",
+		"author": "Madeleine L’Engle",
+		"publisher": "Square Fish",
+		"year": 1962,
+		"pages": 256,
+		"plot": "Back on current bestseller lists",
+		"audience": " likely thanks to Disney’s recent movie adaptation"
+	},
+	{
+		"id": 4,
+		"title": "Harold and the Purple Crayon",
+		"author": "Crockett Johnson",
+		"publisher": "Harper Collins",
+		"year": 1955,
+		"pages": 64,
+		"plot": "Imagine if you could create a whole world just with one crayon. That’s what happens to Harold",
+		"audience": " and his story has been sparking children’s imaginations since 1955. Harold is also a great problem-solver: For example"
+	},
+	{
+		"id": 5,
+		"title": "Where the Wild Things Are",
+		"author": "Maurice Sendak",
+		"publisher": "Harper Collins",
+		"year": 1963,
+		"pages": 48,
+		"plot": "Ranking at number one on lists of best children’s books compiled by Scholastic",
+		"audience": " School Library Journal"
+	},
+	{
+		"id": 6,
+		"title": "Madeline",
+		"author": "Ludwig Bemelmans",
+		"publisher": "The Viking Press",
+		"year": 1939,
+		"pages": 54,
+		"plot": "In this charming story the title heroine explores Paris with her classmates",
+		"audience": " then needs her appendix out! She’s the smallest in her class"
+	},
+	{
+		"id": 7,
+		"title": "The Tale of Peter Rabbit",
+		"author": "Beatrix Potter",
+		"publisher": "Warne",
+		"year": 1902,
+		"pages": 72,
+		"plot": "Beatrix Potter’s classic children’s book with lovely illustrations make this little rabbit a mainstay of children’s literature over a hundred years later. In the first of many tales",
+		"audience": " mischievous Peter runs into danger when he disobeys his mother and ventures into the neighbor’s garden. A story about consequences"
+	},
+	{
+		"id": 8,
+		"title": "Charlotte’s Web",
+		"author": "E. B. White",
+		"publisher": "Harper Collins",
+		"year": 1952,
+		"pages": 192,
+		"plot": "Number one on the National Education Association‘s list of the best children’s books",
+		"audience": " this 1952 classic tells a tale of friendship featuring a spider named Charlotte"
+	}
+]
