@@ -3,13 +3,15 @@
         <router-link to="/readinglist">Reading List</router-link>
     <nav>
       <router-link
-        v-for="book in books"
+        v-for="book in this.$store.getters.currentPage"
         :key="book.id"
         :to="'/books/' + book.id"
       >
         <Book :book="book" />
       </router-link>
     </nav>
+    <button @click="prev">Previous</button>
+    <button @click="next">Next</button>
   </div>
 </template>
 
@@ -20,9 +22,20 @@ export default {
   components: { Book },
   computed: {
     books() {
-      return this.$store.state.books;
+      // return this.$store.state.books;
+      return this.$store.getters.currentPage
     },
   },
+  methods:{
+    prev(){
+      this.$store.commit('previousPage')
+    },
+    next(){
+      this.$store.commit('nextPage')
+
+    },
+
+  }
 };
 </script>
 

@@ -8,7 +8,7 @@
       </article>
     </article>
     <article class="book-info">
-      <p>{{book.plot}}</p>
+      <p>{{book.plot}}</p>  
       <button @click="addToReading">Please Read Me</button>
     </article>
   </div>
@@ -27,16 +27,14 @@ export default {
   },
   computed:{
     book(){
-      for(let book of this.$store.state.books){
-        if(book.id == this.$route.params.id){
-          return book
-        }
-      }
-      return null
-    }
-    // book(){
-    //   return this.$store.state.books.find(book=> book.id == this.$route.params.bookId)
-    // },
+      return this.$store.getters.currentPage.find(book=> book.id == this.$route.params.id)
+    //   for(let book of this.$store.state.books){
+    //     if(book.id == this.$route.params.id){
+    //       return book
+    //     }
+    //   }
+    //   return null
+    },
 
   },
 
