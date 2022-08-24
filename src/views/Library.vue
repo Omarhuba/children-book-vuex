@@ -1,5 +1,6 @@
 <template>
   <div class="library">
+        <router-link to="/readinglist">Reading List</router-link>
     <nav>
       <router-link
         v-for="book in books"

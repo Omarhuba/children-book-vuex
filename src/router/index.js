@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Library from '../views/Library.vue'
 import BookView from '../views/BookView.vue'
+import ReadingList from '../views/ReadingList.vue'
 
 const routes = [
   {
@@ -12,7 +13,12 @@ const routes = [
     path: '/books/:id',
     name: 'BookView',
     component: BookView
-  }
+  },
+  {
+    path: '/readinglist',
+    name: 'Reading',
+    component: ReadingList
+  },
 ]
 
 const router = createRouter({

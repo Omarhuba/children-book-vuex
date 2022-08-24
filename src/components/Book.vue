@@ -26,8 +26,8 @@ export default {
 <style scoped>
     .book{
         color: black;
-        width: 350px;
-        height: 480px;
+        width: 300px;
+        height: 420px;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
