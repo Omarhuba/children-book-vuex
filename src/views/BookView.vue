@@ -8,7 +8,7 @@
       </article>
     </article>
     <article class="book-info">
-      <p>{{book.plot}}</p>  
+      <p>{{book.plot}}</p>
       <button @click="addToReading">Please Read Me</button>
     </article>
   </div>

@@ -2,6 +2,8 @@
   <div class="library">
         <router-link to="/readinglist">Reading List</router-link>
     <nav>
+
+        <!-- v-for="book in this.$store.state.books" -->
       <router-link
         v-for="book in this.$store.getters.currentPage"
         :key="book.id"
@@ -35,6 +37,9 @@ export default {
 
     },
 
+  },
+  mounted(){
+    this.$store.dispatch('getBooks')
   }
 };
 </script>
